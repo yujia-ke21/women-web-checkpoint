@@ -1,0 +1,122 @@
+body{
+    background-color: #f6efe7;
+    /* background-color: #F8EDE3; */
+    margin: 30px 50px;
+}
+
+nav{
+    background-color: #C8DBD7;
+    /* background: #f08080; */
+    padding: 0px 20px;
+    margin: 0px 0px 30px;
+}
+
+li{
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+a{
+    color: #3C5556;
+    text-decoration: none;
+    font-style: bold;
+    font-family: Arial;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+.active{
+    color:black;
+    border: 1px solid #C8DBD7;
+    background-color: #F5D4C3;
+    font-weight: 600;
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+img:nth-of-type(even){
+    border: 10px solid;
+    border-image: linear-gradient(#f9dcc4, #f08080) 30;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+
+img:nth-of-type(odd){
+    border: 10px solid;
+    border-image: linear-gradient(#e1eec7, #7fdbff) 30;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+
+
+/* div img:nth-child(odd){
+    border: 10px solid;
+    border-image: linear-gradient(#e1eec7, #7fdbff) 30;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+div img:nth-child(even){
+    border: 10px solid;
+    border-image: linear-gradient(#f9dcc4, #f08080) 30;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    border-radius: 30px;
+} */
+
+img:hover{
+    border: 10px solid;
+    border-image: linear-gradient(#d2c4f9, #70e7ee) 30;
+    margin: auto;
+    width: 50%;
+    border-radius: 30px;
+}
+
+.skip{
+    position:absolute;
+    left:-1000px;
+}
+
+.skip:focus{
+    left:0px;
+}
+
+footer{
+    background-color: #C8DBD7;
+    color: #3C5556;
+    padding: 10px;
+    margin: 10px 0px 5px;
+
+}
+
+footer > a {
+    background-color: #F5D4C3;
+    color: #264143;
+    border: 1px solid white;
+}
